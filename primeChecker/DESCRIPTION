@@ -1,12 +1,14 @@
 Package: primeChecker
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: A package that checks whether a number is prime or not
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Ali", "Magzari", , "id.amagzari@gmail.com", role = c("aut", "cre"))
+Description: A package that checks whether a number is prime or not. The contained function returns TRUE if prime, FALSE if not.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.1  
+Note: All calls to functions from external packages are called using the form package::function() 
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
