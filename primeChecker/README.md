@@ -17,7 +17,7 @@ You can install the development version of primeChecker from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2022/b1-b2-amagzari/primeChecker", ref = "0.1.0")
+devtools::install_github("stat545ubc-2022/b1-b2-amagzari/primeChecker")
 ```
 
 ## Example
